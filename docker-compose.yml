@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  app:
+    build: ./app
+    image: omwoyojohn/ecommerce-app:v1.0.0
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGO_URI=mongodb+srv://omwoyojohn:omwoyojohn@cluster0.acjt20i.mongodb.net/productsdb?retryWrites=true&w=majority&appName=Cluster0
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
