@@ -101,16 +101,20 @@ Port conflicts	Change local ports in docker-compose.yml if needed
 
 📸 Screenshot – Docker Hub Push
 See attached images
+
 <img width="1920" height="1200" alt="Screenshot from 2025-08-01 00-37-47" src="https://github.com/user-attachments/assets/825b79bf-9270-4982-bf8c-8b27573b7487" />
 
 <img width="1920" height="1200" alt="Screenshot from 2025-08-01 00-37-47" src="https://github.com/user-attachments/assets/d4dfbd85-a7c2-49e8-81fd-4ea0a9a3f12b" />
 
 <img width="1916" height="1199" alt="Screenshot from 2025-08-01 01-11-45" src="https://github.com/user-attachments/assets/7e8ab66f-4d51-411b-8385-7ef6733dab74" />
+
 <img width="1916" height="1199" alt="Screenshot from 2025-08-01 01-12-20" src="https://github.com/user-attachments/assets/32c91054-f3c1-4fad-af56-e2b8bc8a97c7" />
+
 <img width="1916" height="1199" alt="Screenshot from 2025-08-01 01-13-51" src="https://github.com/user-attachments/assets/88f17328-9a46-432a-92f4-05ddc9b0845c" />
 
+<img width="1916" height="1199" alt="Screenshot from 2025-08-01 01-33-10" src="https://github.com/user-attachments/assets/0b25e440-8aee-42fb-9976-23a79e9b5443" />
 
-![Docker Hub push screenshot](./screenshots/dockerhub-push.png)
+
 🙋 Author
 Omwoyo John
 
