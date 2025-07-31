@@ -1,16 +1,22 @@
-version: "3.8"
-
 services:
-  app:
-    build: ./app
-    image: omwoyojohn/ecommerce-app:v1.0.0
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
+    environment:
+      - MONGO_URI=mongodb+srv://omwoyojohn:omwoyojohn@cluster0.acjt20i.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+    networks:
+      - yolo-net
+
+  frontend:
+    build: ./frontend
     ports:
       - "3000:3000"
-    environment:
-      - MONGO_URI=mongodb+srv://omwoyojohn:omwoyojohn@cluster0.acjt20i.mongodb.net/productsdb?retryWrites=true&w=majority&appName=Cluster0
+    depends_on:
+      - backend
     networks:
-      - app-network
+      - yolo-net
 
 networks:
-  app-network:
+  yolo-net:
     driver: bridge
