@@ -112,6 +112,11 @@ Networking is handled via Docker Compose default bridge.
 
 The MongoDB URI is managed securely via environment variables.
 
+Project Runs Successfully
+
+<img width="1916" height="1199" alt="Screenshot from 2025-08-01 01-20-18" src="https://github.com/user-attachments/assets/0b8d18eb-c457-4226-9737-7960d048f9fb" />
+
+
 👤 Author
 Omwoyo John, DevOps Engineer, Livinggoods
 
