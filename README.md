@@ -60,6 +60,8 @@ Create a .env file inside the backend/ folder and add your MongoDB URI:
 
 MONGO_URI=mongodb+srv://omwoyojohn:<your_password>@cluster0.mongodb.net/?retryWrites=true&w=majority
 Replace <your_password> with the actual password for your MongoDB user.
+<img width="1916" height="1199" alt="Screenshot from 2025-08-01 01-33-10" src="https://github.com/user-attachments/assets/cdc6874c-8e57-4bd7-987e-27d9c7441d23" />
+
 
 ✅ Completed Tasks
  Initialized Git repository with project structure
