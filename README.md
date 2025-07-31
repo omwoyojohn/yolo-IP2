@@ -54,7 +54,6 @@ docker compose up --build
 
 🖥️ Backend: http://localhost:5000
 
-<img width="1390" height="768" alt="Screenshot from 2025-08-01 00-35-58" src="https://github.com/user-attachments/assets/36affdf2-6a9b-4f16-bd71-5d26db11bf5c" />
 
 🔐 MongoDB Configuration
 Create a .env file inside the backend/ folder and add your MongoDB URI:
@@ -99,6 +98,8 @@ See attached screenshots
 UI running in browser
 
 Terminal showing successful Docker builds and pushes
+
+<img width="1390" height="768" alt="Screenshot from 2025-08-01 00-35-58" src="https://github.com/user-attachments/assets/36affdf2-6a9b-4f16-bd71-5d26db11bf5c" />
 
 API responses in Postman or browser
 
